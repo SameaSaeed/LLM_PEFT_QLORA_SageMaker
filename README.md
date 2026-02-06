@@ -57,7 +57,9 @@ flowchart TD
     D --> E[Model Deployment]
     E --> F[Endpoint Inference]
 ```
-## Sample Output (Ollama-based-for local or CPU based inferencing. Use vLLM for production-grade GPU based inferencing)
+## Sample Output 
+
+(Ollama-based-for local or CPU based inferencing. Use vLLM for production-grade GPU based inferencing)
 
 <img width="227" height="250" alt="ollama_output" src="https://github.com/user-attachments/assets/d59a63bc-796b-4ed9-8acd-62910c93c5f8" />
 
