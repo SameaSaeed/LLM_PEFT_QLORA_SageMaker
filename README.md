@@ -2,14 +2,14 @@
 
 ## Introduction
 
-LLM_PEFT_QLORA is a comprehensive repository designed to demonstrate the fine-tuning of Large Language Models (LLMs) using Parameter Efficient Fine-Tuning (PEFT) techniques and QLoRA. This solution provides a robust pipeline for data preparation, model configuration, training, evaluation, and deployment, specifically optimized for scalable and cost-effective workflows in the cloud.
+LLM_PEFT_Quantization is a comprehensive repository designed to demonstrate the fine-tuning of Large Language Models (LLMs) using Parameter Efficient Fine-Tuning (PEFT) techniques and quantization. This solution provides a robust pipeline for data preparation, model configuration, training, evaluation, and deployment, specifically optimized for scalable and cost-effective workflows.
 
 ## Features
 
-- End-to-end pipeline for QLoRA and PEFT-based LLM fine-tuning
+- End-to-end pipeline for PEFT-based LLM fine-tuning and Quantization
 - Seamless AWS SageMaker integration for managed training
 - Data preprocessing 
-- Deployment approach for launching and monitoring endpoints on SageMaker
+- Deployment approach for launching and monitoring endpoints
 
 ## Requirements
 
