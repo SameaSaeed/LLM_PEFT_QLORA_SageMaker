@@ -7,30 +7,25 @@ LLM_PEFT_Quantization is a comprehensive repository designed to demonstrate the 
 ## Features
 
 - End-to-end pipeline for PEFT-based LLM fine-tuning and Quantization
-- Seamless AWS SageMaker integration for managed training
 - Data preprocessing 
 - Deployment approach for launching and monitoring endpoints
 
 ## Requirements
 
 - Python 3.8 or later
-- AWS CLI configured with proper credentials
-- SageMaker Python SDK
 - torch, transformers, datasets, and accelerate libraries
 - Additional dependencies defined in `requirements.txt`
-- An AWS account with permissions to create SageMaker resources
-
 
 ## Approach
 
 ### 1. Prepare Your Dataset
 
 - Place your training and evaluation datasets in the `data/` directory.
-- Use the provided scripts in the `preprocessing/` folder to clean and tokenize your data.
+- Use the provided scripts to clean and tokenize your data.
 
 ### 2. Configure Training Parameters
 
-- Edit the configuration files in the `config/` directory to set your model, data paths, hyperparameters, and SageMaker settings.
+- Edit the configuration to set your model, data paths, hyperparameters, and settings.
 - Choose options for PEFT and QLoRA in the configuration.
 
 ### 3. Launch Training 
@@ -52,7 +47,7 @@ LLM_PEFT_Quantization is a comprehensive repository designed to demonstrate the 
 ```mermaid
 flowchart TD
     A[Data Preparation] --> B[Model Configuration]
-    B --> C[Launch SageMaker Training]
+    B --> C[Launch Training]
     C --> D[Model Evaluation]
     D --> E[Model Deployment]
     E --> F[Endpoint Inference]
