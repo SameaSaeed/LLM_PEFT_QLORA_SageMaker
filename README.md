@@ -1,5 +1,10 @@
 # LLM_PEFT_Quantization
 
+
+<img width="462" height="113" alt="FineTuning_logic" src="https://github.com/user-attachments/assets/a674af14-1fcf-4c32-8048-e1a966d4019c" />
+
+
+
 ## Introduction
 
 LLM_PEFT_Quantization is a comprehensive repository designed to demonstrate the fine-tuning of Large Language Models (LLMs) using Parameter Efficient Fine-Tuning (PEFT) techniques and quantization. This solution provides a robust pipeline for data preparation, model configuration, training, evaluation, and deployment, specifically optimized for scalable and cost-effective workflows.
